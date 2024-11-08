@@ -1,4 +1,4 @@
-// package NumberProgram;
+package NumberProgram;
 
 public class EvenOdd {
     public static void main(String[] args) {
