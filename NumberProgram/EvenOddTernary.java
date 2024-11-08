@@ -1,4 +1,4 @@
-// package NumberProgram;
+package NumberProgram;
 
 import java.util.Scanner;
 
@@ -7,6 +7,16 @@ public class EvenOddTernary {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int n = sc.nextInt();
-        System.out.println((n % 2 == 0) ? n + " is even" : n + " is odd");
+        // using ternary operator
+        // System.out.println((n % 2 == 0) ? n + " is even" : n + " is odd");
+
+        // using switch statement
+        switch (n % 2) {
+            case 0:
+                System.out.println(n + " is even");
+                break;
+            case 1:
+                System.out.println(n + " is odd");
+        }
     }
 }
